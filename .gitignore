@@ -1,0 +1,30 @@
+# Dependências do Node (NUNCA enviar para o GitHub)
+node_modules/
+
+# Logs e debug
+*.log
+npm-debug.log*
+
+# Build de produção
+dist/
+build/
+.vite/
+
+# Variáveis de ambiente (segurança!)
+.env
+.env.local
+.env*.local
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# IDE do VS Code (configurações pessoais)
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+
+# Arquivos temporários
+*.swp
+*.swo
+*~

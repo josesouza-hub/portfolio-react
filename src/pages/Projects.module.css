@@ -1,0 +1,53 @@
+.section { padding: 2rem 0; }
+.title { font-size: 2rem; font-weight: 700; margin-bottom: 2rem; text-align: center; }
+.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem; }
+
+.card { 
+  background: var(--surface, #fff); 
+  border: 1px solid var(--border, #e2e8f0); 
+  border-radius: 12px; 
+  overflow: hidden; 
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+.card:hover { 
+  transform: translateY(-4px); 
+  box-shadow: 0 12px 24px rgba(0,0,0,0.1); 
+}
+
+/* Área da mídia (imagem ou ícone) */
+.cardMedia { 
+  height: 180px; 
+  background: var(--bg, #f1f5f9); 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  position: relative; 
+  overflow: hidden;
+}
+
+/* Imagem do projeto */
+.cardImg { 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover;  /* Corta a imagem para preencher sem distorcer */
+  display: block;
+}
+
+/* Ícone de fallback */
+.cardIcon { 
+  font-size: 4rem; 
+  position: absolute; 
+  display: none;  /* Escondido por padrão se houver imagem */
+}
+.cardIcon.visible { 
+  display: flex;  /* Mostra se a imagem falhar */
+  align-items: center; 
+  justify-content: center; 
+}
+
+/* Conteúdo do card */
+.cardContent { padding: 1.2rem; }
+.cardContent h3 { margin: 0 0 0.5rem; font-size: 1.25rem; color: var(--text, #0f172a); }
+.cardContent p { color: var(--text-secondary, #475569); margin: 0 0 1rem; font-size: 0.95rem; }
+.link { color: var(--primary, #2563eb); font-weight: 600; text-decoration: none; }
+.link:hover { text-decoration: underline; }
