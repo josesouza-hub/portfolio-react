@@ -4,7 +4,7 @@ import styles from './Navbar.module.css';
 export default function Navbar() {
   return (
     <nav className={styles.nav}>
-      <Link to="/" className={styles.logo}>📁 MeuPortfólio</Link>
+      <Link to="/" className={styles.logo}> MeuPortfólio</Link>
       <ul className={styles.menu}>
         <li><Link to="/">Início</Link></li>
         <li><Link to="/projetos">Projetos</Link></li>

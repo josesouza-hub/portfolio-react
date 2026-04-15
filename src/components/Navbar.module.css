@@ -3,9 +3,10 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background: #0f172a;
-  color: #fff;
+  background: var(--surface, #0f172a);
+  border-bottom: 1px solid var(--border, #334155);
 }
+
 .menu {
   display: flex;
   gap: 1.5rem;
@@ -13,21 +14,55 @@
   margin: 0;
   padding: 0;
 }
+
 .menu a {
-  color: #cbd5e1;
+  color: var(--text-secondary, #cbd5e1);
   text-decoration: none;
   font-weight: 500;
   padding: 0.5rem;
   border-radius: 6px;
   transition: all 0.2s;
 }
+
 .menu a:hover, .menu a:focus {
-  color: #38bdf8;
-  background: #1e293b;
+  color: var(--primary, #38bdf8);
+  background: var(--bg, #1e293b);
 }
+
 .logo {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #fff;
+  color: var(--text, #fff);
   text-decoration: none;
+}
+
+/* 📱 RESPONSIVO MOBILE (IHC + WCAG Touch Targets) */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    gap: 0.8rem;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+
+  .menu {
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .menu a {
+    padding: 0.6rem 1rem;
+    font-size: 0.95rem;
+    min-height: 44px; /* Alvo de toque recomendado pela WCAG */
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+    margin-bottom: 0.2rem;
+  }
 }

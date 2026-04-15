@@ -13,8 +13,9 @@ export default function Home() {
           className={styles.profilePic}
         />
         <p className={styles.greeting}>Olá, eu sou</p>
-        <h1 className={styles.name}>José Roque B Souza</h1>
-        <h2 className={styles.role}>Estudante de ADS| 4º Período</h2>
+        <h1 className={styles.name}>José Souza</h1>
+        <h2 className={styles.role}>Estudante de ADS</h2>
+        
         <p className={styles.bio}>
           Desenvolvo interfaces acessíveis e funcionais com foco em experiência do usuário.
           Este portfólio reúne meus projetos acadêmicos, demonstrações práticas e materiais de apresentação.
