@@ -1,9 +1,42 @@
-.section { padding: 2rem 0; }
+.section { padding: 2rem 0; box-sizing: border-box; }
 .title { font-size: 2rem; font-weight: 700; margin-bottom: 2rem; text-align: center; }
-.grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; }
-.card { background: #fff; border-radius: 12px; overflow: hidden; border: 1px solid #e2e8f0; }
-.video { width: 100%; display: block; background: #000; aspect-ratio: 16/9; }
+
+.grid { 
+  display: grid; 
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+  gap: 2rem; 
+}
+
+.card { 
+  background: var(--surface, #fff); 
+  border-radius: 12px; 
+  overflow: hidden; 
+  border: 1px solid var(--border, #e2e8f0); 
+}
+
+.video { 
+  width: 100%; 
+  max-width: 100%; 
+  display: block; 
+  background: #000; 
+  aspect-ratio: 16/9; 
+}
+
 .info { padding: 1rem; display: flex; align-items: center; gap: 0.8rem; }
 .icon { font-size: 1.5rem; }
-.info h3 { margin: 0; font-size: 1.1rem; }
-.tip { text-align: center; margin-top: 2rem; color: #64748b; font-size: 0.9rem; }
+.info h3 { margin: 0; font-size: 1.1rem; color: var(--text, #0f172a); }
+.tip { text-align: center; margin-top: 2rem; color: var(--text-secondary, #64748b); font-size: 0.9rem; }
+
+/* 📱 MOBILE: Centralização e limites seguros */
+@media (max-width: 768px) {
+  .grid {
+    grid-template-columns: 1fr;
+    justify-items: center; /* Centraliza os cards no grid */
+    padding: 0 1rem;
+  }
+  .card {
+    width: 100%;
+    max-width: 420px; /* Evita esticar demais em tablets/phones grandes */
+    margin: 0 auto;
+  }
+}

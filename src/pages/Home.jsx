@@ -12,7 +12,7 @@ export default function Home() {
           alt="Foto de perfil do desenvolvedor"
           className={styles.profilePic}
         />
-        <p className={styles.greeting}>Olá, eu sou</p>
+        <p className={styles.greeting}></p>
         <h1 className={styles.name}>José Souza</h1>
         <h2 className={styles.role}>Estudante de ADS</h2>
         

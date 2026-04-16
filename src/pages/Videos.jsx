@@ -2,13 +2,14 @@ import styles from './Videos.module.css';
 
 export default function Videos() {
   const videos = [
-    { id: 1, titulo: 'Demo: CRUD de Tarefas', src: '/assets/demo1.mp4', thumb: '/assets/thumb1.jpg', icon: '🎬' },
-    { id: 2, titulo: 'Apresentação: Consumo de API', src: '/assets/demo2.mp4', thumb: '/assets/thumb2.jpg', icon: '🎥' }
+    { id: 1, titulo: 'Apresentação', src: '/assets/demo1.mp4', thumb: '/assets/thumb1.jpg', icon: '🎬' },
+    //{ id: 2, titulo: 'Apresentação: Consumo de API', src: '/assets/demo2.mp4', thumb: '/assets/thumb2.jpg', icon: '🎥' },
+    //{ id: 3, titulo: 'Apresentação: Consumo de API', src: '/assets/demo3.mp4', thumb: '/assets/thumb2.jpg', icon: '🎥' }
   ];
 
   return (
     <section className={styles.section}>
-      <h1 className={styles.title}>🎬 Vídeos de Apresentação</h1>
+      <h1 className={styles.title}>🎬 Vídeos</h1>
       <div className={styles.grid}>
         {videos.map(v => (
           <article key={v.id} className={styles.card}>
@@ -22,8 +23,7 @@ export default function Videos() {
             </div>
           </article>
         ))}
-      </div>
-      <p className={styles.tip}>💡 Coloque seus vídeos e thumbs em <code>public/assets/</code> e atualize o array acima.</p>
+      </div>    
     </section>
   );
 }

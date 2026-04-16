@@ -4,21 +4,21 @@ export default function Projects() {
   const projetos = [
     { 
       id: 1, 
-      nome: 'Projeto 1 (Em desenvolvimento)', 
+      nome: 'Projeto 1', 
       url: 'https://github.com/josesouza-hub/projeto-1', 
-      desc: 'Fetch API, tratamento de erros e loading states.', 
-      img: '/assets/projeto1.jpg',  // ← Sua imagem aqui
-      icon: '📋'  // ← Fallback se a imagem falhar
-    },
-    { 
-      id: 2, 
-      nome: 'App de Clima (Em desenvolvimento)', 
-      url: 'https://github.com/josesouza-hub/projeto-2', 
-      desc: 'Consumo de API OpenWeatherMap com React.', 
-      img: '/assets/projeto-clima.jpg',
-      icon: '🌤️'
-    }
-  ];
+      desc: 'Fetch API, tratamento de erros e loading states (Em desenvolvimento).', 
+      img: '/assets/projeto1.jpg',  
+      icon: '📋'  
+    }];
+   // { 
+   //   id: 2, 
+   //   nome: 'App de Clima', 
+  //    url: 'https://github.com/josesouza-hub/projeto-2', 
+  //    desc: 'Consumo de API OpenWeatherMap com React. (Em desenvolvimento)', 
+  //    img: '/assets/projeto-clima.jpg',
+  //    icon: '🌤️'
+  //  }
+  //];
 
   return (
     <section className={styles.section}>
