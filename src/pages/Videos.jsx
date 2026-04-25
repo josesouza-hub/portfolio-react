@@ -2,7 +2,7 @@ import styles from './Videos.module.css';
 
 export default function Videos() {
   const videos = [
-    { id: 1, titulo: 'Apresentação', src: '/assets/demo1.mp4', thumb: '/assets/thumb1.jpg', icon: '🎬' },
+    { id: 1, titulo: 'Apresentação do projeto', src: '/assets/Demo1.mp4', thumb: '/assets/thumb1.jpg', icon: '🎬' },
     //{ id: 2, titulo: 'Apresentação: Consumo de API', src: '/assets/demo2.mp4', thumb: '/assets/thumb2.jpg', icon: '🎥' },
     //{ id: 3, titulo: 'Apresentação: Consumo de API', src: '/assets/demo3.mp4', thumb: '/assets/thumb2.jpg', icon: '🎥' }
   ];
