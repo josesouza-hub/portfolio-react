@@ -9,16 +9,16 @@ export default function Projects() {
       desc: 'Fetch API, tratamento de erros e loading states (Em desenvolvimento).', 
       img: '/assets/projeto1.jpg',  
       icon: '📋'  
-    }];
-   // { 
-   //   id: 2, 
-   //   nome: 'App de Clima', 
-  //    url: 'https://github.com/josesouza-hub/projeto-2', 
-  //    desc: 'Consumo de API OpenWeatherMap com React. (Em desenvolvimento)', 
-  //    img: '/assets/projeto-clima.jpg',
-  //    icon: '🌤️'
-  //  }
-  //];
+    },
+    { 
+     id: 2, 
+     nome: 'Este Projeto', 
+     url: 'https://github.com/josesouza-hub/portfolio-react', 
+     desc: 'Meu portfólio', 
+     img: '/assets/portfoliotumb1.jpg',
+     icon: '📋'
+   }
+  ];
 
   return (
     <section className={styles.section}>
@@ -53,7 +53,7 @@ export default function Projects() {
                 rel="noopener noreferrer" 
                 className={styles.link}
               >
-                Acessar no GitHub →
+                Acessar no GitHub
               </a>
             </div>
           </article>
