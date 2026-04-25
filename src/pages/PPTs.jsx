@@ -4,7 +4,7 @@ export default function PPTs() {
   const slides = [
     { 
       id: 1, 
-      titulo: 'Portfólio', 
+      titulo: 'Portfolio', 
       url: '/assets/slides-mvc.pdf', 
       img: '/assets/thumb-mvc.jpg', 
       tipo: 'PDF', 
