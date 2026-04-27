@@ -4,8 +4,8 @@
 > **Curso:** Análise e Desenvolvimeno de Sistemas | **Período:** 4º   
 > **Instituição:** Universidade Tiradentes   
 > **Orientador:** Bruno Nunes Barreto   
-> **Autor:** José Roque B Souza |  email: jose.rbrito@souunit.com.br
-> **Polo:** Umbauba (SE)
+> **Autor:** José Roque B Souza |  email: jose.rbrito@souunit.com.br   
+>  **Polo :** Umbauba (SE)
 
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8.0.8-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
