@@ -13,7 +13,7 @@ export default function Home() {
           className={styles.profilePic}
         />
         <p className={styles.greeting}></p>
-        <h1 className={styles.name}>José Souza</h1>
+        <h1 className={styles.name}>Eu sou José Souza</h1>
         <h2 className={styles.role}>Estudante de ADS</h2>
         
         <p className={styles.bio}>
