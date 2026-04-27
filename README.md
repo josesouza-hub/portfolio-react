@@ -1,9 +1,10 @@
 # 📁 Portfólio Acadêmico - React + IHC
 
 > Projeto desenvolvido para a disciplina de Interação Humano-Computador (IHC)  
-> **Curso:** Tecnologia da Informação | **Período:** 2º Semestre  
-> **Instituição:** [Nome da Faculdade]  
-> **Autor:** [Seu Nome Completo] | [seu.email@faculdade.edu]
+> **Curso:** Análise e Desenvolvimeno de Sistemas | **Período:** 4º   
+> **Instituição:** Universidade Tiradentes   
+> **Orientador:** Bruno Nunes Barreto   
+> **Autor:** José Roque B Soza |  email: jose.rbrito@souunit.com.br
 
 [![React](https://img.shields.io/badge/React-18.2.0-61DAFB?logo=react&logoColor=white)](https://react.dev)
 [![Vite](https://img.shields.io/badge/Vite-8.0.8-646CFF?logo=vite&logoColor=white)](https://vitejs.dev)
