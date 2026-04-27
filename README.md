@@ -83,7 +83,7 @@ Git instalado
 ▶️ Passos
 
 # 1. Clone ou extraia o projeto
-git clone https://github.com/josesouza/portfolio-react.git
+git clone https://github.com/josesouza-hub/portfolio-react.git
 cd portfolio-react
 
 # 2. Instale as dependências
